@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: greenyellow;
+}
+.rectangle1{
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    margin-left: 10%;
+}
+.right{
+    width: 50%;
+    height: 100%;
+}
+.search{
+    height: 5%;
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 10%;
+}
+.search input{
+    border: none;
+    height: 100%;
+    width: 40%;
+    margin-right: 15px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.search button{
+    border: none;
+    width: 20%;
+    font-size: 20px;
+}
+.search button:hover{
+    box-shadow: 5px 5px 5px 5px black;
+    cursor: grab;
+    color: green;
+    background-color: yellow;
+}
+.location{
+    height: 5%;
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 8%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.location img{
+    height: 20px;
+}
+.card{
+    height: 30%;
+    width: 62.5%;
+    margin-left: 30px;
+    margin-top: 4%;
+    background-color: white;
+    border-radius: 10px;
+}
+.degree img{
+    height: 30px;
+    margin-top: 3%;
+}
+.degree{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+.Feels{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.variable{
+    margin-top: 4%;
+    color: white;
+    line-height: 50px;
+    font-size: 36px;
+    padding: 30px;
+    width: 62.5%;
+}
+.val{
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    height: 100px;
+    margin-top: 50%;
+    display: flex;
+    align-items: center;
+    padding: 125px;
+    border-image-outset: 50px;
+}
+  
